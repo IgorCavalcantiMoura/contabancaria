@@ -7,7 +7,7 @@ public class Conta {
 	private String titular;
 	private float saldo;
 	
-	private Conta(int numero, int agencia, int tipo, String titular, float saldo) {
+	public Conta(int numero, int agencia, int tipo, String titular, float saldo) {
 		this.numero = numero;
 		this.agencia = agencia;
 		this.tipo = tipo;
